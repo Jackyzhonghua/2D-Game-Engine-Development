@@ -1,0 +1,142 @@
+﻿  AudioEffect.cpp
+j:\jacky\aau\2016 spring\classes\gap 275\fireware\fireware\fireware\AudioEffect.h(4): fatal error C1083: Cannot open include file: 'SDL_mixer.h': No such file or directory
+  AudioSource.cpp
+j:\jacky\aau\2016 spring\classes\gap 275\fireware\fireware\fireware\AudioSource.h(4): fatal error C1083: Cannot open include file: 'SDL_mixer.h': No such file or directory
+  Background.cpp
+j:\jacky\aau\2016 spring\classes\gap 275\fireware\fireware\fireware\SpriteRederer.h(8): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  BackGroundMovement.cpp
+j:\jacky\aau\2016 spring\classes\gap 275\fireware\fireware\fireware\Time.h(3): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  BoxCollider.cpp
+BoxCollider.cpp(4): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  Bullet.cpp
+j:\jacky\aau\2016 spring\classes\gap 275\fireware\fireware\fireware\SpriteRederer.h(8): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  BulletControl.cpp
+j:\jacky\aau\2016 spring\classes\gap 275\fireware\fireware\fireware\Time.h(3): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  Cannonball.cpp
+j:\jacky\aau\2016 spring\classes\gap 275\fireware\fireware\fireware\SpriteRederer.h(8): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  CannonballControl.cpp
+j:\jacky\aau\2016 spring\classes\gap 275\fireware\fireware\fireware\SourceManager.h(4): fatal error C1083: Cannot open include file: 'SDL_mixer.h': No such file or directory
+  CannonBallGift.cpp
+j:\jacky\aau\2016 spring\classes\gap 275\fireware\fireware\fireware\AudioEffect.h(4): fatal error C1083: Cannot open include file: 'SDL_mixer.h': No such file or directory
+  CannonBallGiftControl.cpp
+j:\jacky\aau\2016 spring\classes\gap 275\fireware\fireware\fireware\Time.h(3): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  CannonBallGiftInside.cpp
+j:\jacky\aau\2016 spring\classes\gap 275\fireware\fireware\fireware\SourceManager.h(4): fatal error C1083: Cannot open include file: 'SDL_mixer.h': No such file or directory
+  CannonBallNumText.cpp
+j:\jacky\aau\2016 spring\classes\gap 275\fireware\fireware\fireware\TextMesh.h(6): fatal error C1083: Cannot open include file: 'SDL_ttf.h': No such file or directory
+  CannonUI.cpp
+j:\jacky\aau\2016 spring\classes\gap 275\fireware\fireware\fireware\SpriteRederer.h(8): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  CheckCollider.cpp
+CheckCollider.cpp(6): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  Collider.cpp
+  Componentbehavior.cpp
+  Game.cpp
+j:\jacky\aau\2016 spring\classes\gap 275\fireware\fireware\fireware\Game.h(3): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  GameBehavior.cpp
+GameBehavior.cpp(6): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  GameManager.cpp
+j:\jacky\aau\2016 spring\classes\gap 275\fireware\fireware\fireware\SourceManager.h(4): fatal error C1083: Cannot open include file: 'SDL_mixer.h': No such file or directory
+  Compiling...
+  GameManagerControl.cpp
+j:\jacky\aau\2016 spring\classes\gap 275\fireware\fireware\fireware\AudioSource.h(4): fatal error C1083: Cannot open include file: 'SDL_mixer.h': No such file or directory
+  GameObject.cpp
+j:\jacky\aau\2016 spring\classes\gap 275\fireware\fireware\fireware\SpriteRederer.h(8): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  GamePlayingScene.cpp
+  GameResult.cpp
+j:\jacky\aau\2016 spring\classes\gap 275\fireware\fireware\fireware\TextMesh.h(6): fatal error C1083: Cannot open include file: 'SDL_ttf.h': No such file or directory
+  GameResultBackGround.cpp
+j:\jacky\aau\2016 spring\classes\gap 275\fireware\fireware\fireware\SpriteRederer.h(8): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  GameResultControl.cpp
+j:\jacky\aau\2016 spring\classes\gap 275\fireware\fireware\fireware\TextMesh.h(6): fatal error C1083: Cannot open include file: 'SDL_ttf.h': No such file or directory
+  Gifts.cpp
+  GiftsControl.cpp
+  Input.cpp
+j:\jacky\aau\2016 spring\classes\gap 275\fireware\fireware\fireware\Input.h(5): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  Leukocyte.cpp
+j:\jacky\aau\2016 spring\classes\gap 275\fireware\fireware\fireware\Sprite.h(3): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  LeukocyteLight.cpp
+j:\jacky\aau\2016 spring\classes\gap 275\fireware\fireware\fireware\SpriteRederer.h(8): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  LeukocyteLightControl.cpp
+j:\jacky\aau\2016 spring\classes\gap 275\fireware\fireware\fireware\SpriteRederer.h(8): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  LeukocyteMoveControl.cpp
+j:\jacky\aau\2016 spring\classes\gap 275\fireware\fireware\fireware\Input.h(5): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  LeukocyteShooting.cpp
+j:\jacky\aau\2016 spring\classes\gap 275\fireware\fireware\fireware\Input.h(5): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  main.cpp
+j:\jacky\aau\2016 spring\classes\gap 275\fireware\fireware\fireware\Game.h(3): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  PointCollider.cpp
+  Radom.cpp
+  Scene.cpp
+Scene.cpp(4): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  SceneManger.cpp
+  SourceManager.cpp
+j:\jacky\aau\2016 spring\classes\gap 275\fireware\fireware\fireware\SourceManager.h(4): fatal error C1083: Cannot open include file: 'SDL_mixer.h': No such file or directory
+  Compiling...
+  SphereCollider.cpp
+SphereCollider.cpp(4): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  Sprite.cpp
+j:\jacky\aau\2016 spring\classes\gap 275\fireware\fireware\fireware\Sprite.h(3): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  SpriteRederer.cpp
+j:\jacky\aau\2016 spring\classes\gap 275\fireware\fireware\fireware\SpriteRederer.h(8): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  StartMenuBackground.cpp
+j:\jacky\aau\2016 spring\classes\gap 275\fireware\fireware\fireware\SpriteRederer.h(8): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  StartMenuBackgroundControl.cpp
+j:\jacky\aau\2016 spring\classes\gap 275\fireware\fireware\fireware\Input.h(5): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  TextMesh.cpp
+j:\jacky\aau\2016 spring\classes\gap 275\fireware\fireware\fireware\TextMesh.h(6): fatal error C1083: Cannot open include file: 'SDL_ttf.h': No such file or directory
+  Time.cpp
+j:\jacky\aau\2016 spring\classes\gap 275\fireware\fireware\fireware\Time.h(3): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  Transform.cpp
+Transform.cpp(3): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  UI.cpp
+  UIControl.cpp
+  Vector2.cpp
+Vector2.cpp(2): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  VirusBas.cpp
+  VirusBasControl.cpp
+j:\jacky\aau\2016 spring\classes\gap 275\fireware\fireware\fireware\Time.h(3): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  VirusBig.cpp
+j:\jacky\aau\2016 spring\classes\gap 275\fireware\fireware\fireware\SpriteRederer.h(8): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  VirusBigBody.cpp
+j:\jacky\aau\2016 spring\classes\gap 275\fireware\fireware\fireware\SpriteRederer.h(8): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  VirusBigBodyControl.cpp
+  VirusBigControl.cpp
+j:\jacky\aau\2016 spring\classes\gap 275\fireware\fireware\fireware\Time.h(3): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  VirusBigExplosion.cpp
+j:\jacky\aau\2016 spring\classes\gap 275\fireware\fireware\fireware\SpriteRederer.h(8): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  VirusBigExplosionControl.cpp
+j:\jacky\aau\2016 spring\classes\gap 275\fireware\fireware\fireware\SourceManager.h(4): fatal error C1083: Cannot open include file: 'SDL_mixer.h': No such file or directory
+  VirusBigHighLight.cpp
+j:\jacky\aau\2016 spring\classes\gap 275\fireware\fireware\fireware\SpriteRederer.h(8): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  Compiling...
+  VirusBigHighLightControl.cpp
+  VirusBigSideLight.cpp
+j:\jacky\aau\2016 spring\classes\gap 275\fireware\fireware\fireware\SpriteRederer.h(8): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  VirusBigSideLightControl.cpp
+j:\jacky\aau\2016 spring\classes\gap 275\fireware\fireware\fireware\SpriteRederer.h(8): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  VirusManager.cpp
+  VirusManagerControl.cpp
+j:\jacky\aau\2016 spring\classes\gap 275\fireware\fireware\fireware\Time.h(3): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  VirusMiddle.cpp
+j:\jacky\aau\2016 spring\classes\gap 275\fireware\fireware\fireware\SpriteRederer.h(8): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  VirusMiddleControl.cpp
+j:\jacky\aau\2016 spring\classes\gap 275\fireware\fireware\fireware\Time.h(3): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  VirusMiddleExplosion.cpp
+j:\jacky\aau\2016 spring\classes\gap 275\fireware\fireware\fireware\SpriteRederer.h(8): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  VirusMiddleHighLight.cpp
+j:\jacky\aau\2016 spring\classes\gap 275\fireware\fireware\fireware\SpriteRederer.h(8): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  VirusMiddleHighLightControl.cpp
+j:\jacky\aau\2016 spring\classes\gap 275\fireware\fireware\fireware\SpriteRederer.h(8): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  VirusMiddlelExplosionControl.cpp
+j:\jacky\aau\2016 spring\classes\gap 275\fireware\fireware\fireware\SourceManager.h(4): fatal error C1083: Cannot open include file: 'SDL_mixer.h': No such file or directory
+  VirusSmall.cpp
+j:\jacky\aau\2016 spring\classes\gap 275\fireware\fireware\fireware\SpriteRederer.h(8): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  VirusSmallControl.cpp
+j:\jacky\aau\2016 spring\classes\gap 275\fireware\fireware\fireware\Time.h(3): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  VirusSmallLight.cpp
+  VirusSmallExplosion.cpp
+j:\jacky\aau\2016 spring\classes\gap 275\fireware\fireware\fireware\SpriteRederer.h(8): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  VirusSmallExplosionControl.cpp
+j:\jacky\aau\2016 spring\classes\gap 275\fireware\fireware\fireware\SourceManager.h(4): fatal error C1083: Cannot open include file: 'SDL_mixer.h': No such file or directory
+  WindowCreater.cpp
+j:\jacky\aau\2016 spring\classes\gap 275\fireware\fireware\fireware\WindowCreater.h(3): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory

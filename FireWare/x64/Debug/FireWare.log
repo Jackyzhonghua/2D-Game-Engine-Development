@@ -1,0 +1,55 @@
+﻿AudioEffect.obj : error LNK2019: unresolved external symbol Mix_PlayChannelTimed referenced in function "public: void __cdecl AudioEffect::Play(int)" (?Play@AudioEffect@@QEAAXH@Z)
+AudioEffect.obj : error LNK2019: unresolved external symbol Mix_VolumeChunk referenced in function "public: void __cdecl AudioEffect::SetVolume(double)" (?SetVolume@AudioEffect@@QEAAXN@Z)
+AudioSource.obj : error LNK2019: unresolved external symbol Mix_PlayMusic referenced in function "public: __cdecl AudioSource::AudioSource(struct _Mix_Music *,class GameObject *,int)" (??0AudioSource@@QEAA@PEAU_Mix_Music@@PEAVGameObject@@H@Z)
+AudioSource.obj : error LNK2019: unresolved external symbol Mix_FadeInMusic referenced in function "public: __cdecl AudioSource::AudioSource(struct _Mix_Music *,class GameObject *,int)" (??0AudioSource@@QEAA@PEAU_Mix_Music@@PEAVGameObject@@H@Z)
+Game.obj : error LNK2019: unresolved external symbol SDL_GetError referenced in function "public: bool __cdecl Game::inite(void)" (?inite@Game@@QEAA_NXZ)
+SourceManager.obj : error LNK2001: unresolved external symbol SDL_GetError
+Game.obj : error LNK2019: unresolved external symbol SDL_PollEvent referenced in function "public: void __cdecl Game::Update(void)" (?Update@Game@@QEAAXXZ)
+Game.obj : error LNK2019: unresolved external symbol SDL_Log referenced in function "public: bool __cdecl Game::inite(void)" (?inite@Game@@QEAA_NXZ)
+SourceManager.obj : error LNK2001: unresolved external symbol SDL_Log
+TextMesh.obj : error LNK2001: unresolved external symbol SDL_Log
+Transform.obj : error LNK2001: unresolved external symbol SDL_Log
+Game.obj : error LNK2019: unresolved external symbol SDL_SetRenderDrawColor referenced in function "private: void __cdecl Game::Run(void)" (?Run@Game@@AEAAXXZ)
+Game.obj : error LNK2019: unresolved external symbol SDL_RenderClear referenced in function "private: void __cdecl Game::Run(void)" (?Run@Game@@AEAAXXZ)
+Game.obj : error LNK2019: unresolved external symbol SDL_RenderPresent referenced in function "private: void __cdecl Game::Run(void)" (?Run@Game@@AEAAXXZ)
+Game.obj : error LNK2019: unresolved external symbol SDL_Init referenced in function "public: bool __cdecl Game::inite(void)" (?inite@Game@@QEAA_NXZ)
+Game.obj : error LNK2019: unresolved external symbol SDL_Quit referenced in function "public: __cdecl Game::~Game(void)" (??1Game@@QEAA@XZ)
+Game.obj : error LNK2019: unresolved external symbol Mix_Init referenced in function "public: bool __cdecl Game::inite(void)" (?inite@Game@@QEAA_NXZ)
+Game.obj : error LNK2019: unresolved external symbol Mix_OpenAudio referenced in function "public: bool __cdecl Game::inite(void)" (?inite@Game@@QEAA_NXZ)
+Game.obj : error LNK2019: unresolved external symbol TTF_Init referenced in function "public: bool __cdecl Game::inite(void)" (?inite@Game@@QEAA_NXZ)
+Game.obj : error LNK2019: unresolved external symbol TTF_Quit referenced in function "public: __cdecl Game::~Game(void)" (??1Game@@QEAA@XZ)
+Game.obj : error LNK2019: unresolved external symbol IMG_Init referenced in function "public: bool __cdecl Game::inite(void)" (?inite@Game@@QEAA_NXZ)
+Game.obj : error LNK2019: unresolved external symbol IMG_Quit referenced in function "public: __cdecl Game::~Game(void)" (??1Game@@QEAA@XZ)
+Input.obj : error LNK2019: unresolved external symbol SDL_GetKeyboardState referenced in function "void __cdecl `dynamic initializer for 'private: static unsigned char const * const Input::keystate''(void)" (??__E?keystate@Input@@0PEBEEB@@YAXXZ)
+Input.obj : error LNK2019: unresolved external symbol SDL_GetScancodeFromKey referenced in function "public: static bool __cdecl Input::GetButtonDown(enum GetKeycode)" (?GetButtonDown@Input@@SA_NW4GetKeycode@@@Z)
+SourceManager.obj : error LNK2019: unresolved external symbol SDL_RWFromFile referenced in function "private: void __cdecl SourceManager::LoadSoundEffect(void)" (?LoadSoundEffect@SourceManager@@AEAAXXZ)
+SourceManager.obj : error LNK2019: unresolved external symbol Mix_LoadWAV_RW referenced in function "private: void __cdecl SourceManager::LoadSoundEffect(void)" (?LoadSoundEffect@SourceManager@@AEAAXXZ)
+SourceManager.obj : error LNK2019: unresolved external symbol Mix_LoadMUS referenced in function "private: void __cdecl SourceManager::LoadMusic(void)" (?LoadMusic@SourceManager@@AEAAXXZ)
+SourceManager.obj : error LNK2019: unresolved external symbol Mix_FreeChunk referenced in function "public: __cdecl SourceManager::~SourceManager(void)" (??1SourceManager@@QEAA@XZ)
+SourceManager.obj : error LNK2019: unresolved external symbol Mix_FreeMusic referenced in function "public: __cdecl SourceManager::~SourceManager(void)" (??1SourceManager@@QEAA@XZ)
+Sprite.obj : error LNK2019: unresolved external symbol SDL_FreeSurface referenced in function "public: __cdecl Sprite::~Sprite(void)" (??1Sprite@@QEAA@XZ)
+TextMesh.obj : error LNK2001: unresolved external symbol SDL_FreeSurface
+Sprite.obj : error LNK2019: unresolved external symbol SDL_CreateTextureFromSurface referenced in function "public: __cdecl Sprite::Sprite(char const *)" (??0Sprite@@QEAA@PEBD@Z)
+TextMesh.obj : error LNK2001: unresolved external symbol SDL_CreateTextureFromSurface
+Sprite.obj : error LNK2019: unresolved external symbol SDL_DestroyTexture referenced in function "public: __cdecl Sprite::~Sprite(void)" (??1Sprite@@QEAA@XZ)
+TextMesh.obj : error LNK2001: unresolved external symbol SDL_DestroyTexture
+Sprite.obj : error LNK2019: unresolved external symbol IMG_Load referenced in function "public: __cdecl Sprite::Sprite(char const *)" (??0Sprite@@QEAA@PEBD@Z)
+SpriteRederer.obj : error LNK2019: unresolved external symbol SDL_SetTextureAlphaMod referenced in function "public: void __cdecl SpriteRederer::SetAlpha(double)" (?SetAlpha@SpriteRederer@@QEAAXN@Z)
+SpriteRederer.obj : error LNK2019: unresolved external symbol SDL_RenderCopyEx referenced in function "public: void __cdecl SpriteRederer::Draw(void)" (?Draw@SpriteRederer@@QEAAXXZ)
+TextMesh.obj : error LNK2001: unresolved external symbol SDL_RenderCopyEx
+TextMesh.obj : error LNK2019: unresolved external symbol TTF_OpenFont referenced in function "public: void __cdecl TextMesh::LoadContent(char const *,char const *,int)" (?LoadContent@TextMesh@@QEAAXPEBD0H@Z)
+TextMesh.obj : error LNK2019: unresolved external symbol TTF_RenderUTF8_Solid referenced in function "public: void __cdecl TextMesh::LoadContent(char const *,char const *,int)" (?LoadContent@TextMesh@@QEAAXPEBD0H@Z)
+TextMesh.obj : error LNK2019: unresolved external symbol TTF_CloseFont referenced in function "public: virtual __cdecl TextMesh::~TextMesh(void)" (??1TextMesh@@UEAA@XZ)
+Time.obj : error LNK2019: unresolved external symbol SDL_GetPerformanceCounter referenced in function "private: __cdecl Time::Time(void)" (??0Time@@AEAA@XZ)
+Time.obj : error LNK2019: unresolved external symbol SDL_GetPerformanceFrequency referenced in function "public: void __cdecl Time::Update(void)" (?Update@Time@@QEAAXXZ)
+WindowCreater.obj : error LNK2019: unresolved external symbol SDL_CreateWindow referenced in function "private: __cdecl WindowCreater::WindowCreater(void)" (??0WindowCreater@@AEAA@XZ)
+WindowCreater.obj : error LNK2019: unresolved external symbol SDL_DestroyWindow referenced in function "public: __cdecl WindowCreater::~WindowCreater(void)" (??1WindowCreater@@QEAA@XZ)
+WindowCreater.obj : error LNK2019: unresolved external symbol SDL_CreateRenderer referenced in function "private: __cdecl WindowCreater::WindowCreater(void)" (??0WindowCreater@@AEAA@XZ)
+WindowCreater.obj : error LNK2019: unresolved external symbol SDL_DestroyRenderer referenced in function "public: __cdecl WindowCreater::~WindowCreater(void)" (??1WindowCreater@@QEAA@XZ)
+MSVCRTD.lib(exe_winmain.obj) : error LNK2019: unresolved external symbol WinMain referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+SDL2-2.0.4\lib\x86\SDL2.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+SDL2-2.0.4\lib\x86\SDL2main.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+SDL2_mixer-2.0.1\lib\x86\SDL2_mixer.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+SDL2_ttf-2.0.14\lib\x86\SDL2_ttf.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+SDL2_image-2.0.1\lib\x86\SDL2_image.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+J:\jacky\AAU\2016 spring\Classes\GAP 275\FireWare\FireWare\2D-Game-Engine-Development\x64\Debug\FireWare.exe : fatal error LNK1120: 41 unresolved externals

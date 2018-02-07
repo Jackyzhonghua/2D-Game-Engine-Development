@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AudioEffect.h" />
+    <ClInclude Include="AudioSource.h" />
+    <ClInclude Include="Background.h" />
+    <ClInclude Include="BackGroundMovement.h" />
+    <ClInclude Include="BoxCollider.h" />
+    <ClInclude Include="Bullet.h" />
+    <ClInclude Include="BulletControl.h" />
+    <ClInclude Include="Cannonball.h" />
+    <ClInclude Include="CannonballControl.h" />
+    <ClInclude Include="CannonBallGift.h" />
+    <ClInclude Include="CannonBallGiftControl.h" />
+    <ClInclude Include="CannonBallGiftInside.h" />
+    <ClInclude Include="CannonBallNumText.h" />
+    <ClInclude Include="CannonUI.h" />
+    <ClInclude Include="CheckCollider.h" />
+    <ClInclude Include="Collider.h" />
+    <ClInclude Include="Componentbehavior.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="GameBehavior.h" />
+    <ClInclude Include="GameManager.h" />
+    <ClInclude Include="GameManagerControl.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="GamePlayingScene.h" />
+    <ClInclude Include="GameResult.h" />
+    <ClInclude Include="GameResultBackGround.h" />
+    <ClInclude Include="GameResultControl.h" />
+    <ClInclude Include="Gifts.h" />
+    <ClInclude Include="GiftsControl.h" />
+    <ClInclude Include="Input.h" />
+    <ClInclude Include="Leukocyte.h" />
+    <ClInclude Include="LeukocyteLight.h" />
+    <ClInclude Include="LeukocyteLightControl.h" />
+    <ClInclude Include="LeukocyteMoveControl.h" />
+    <ClInclude Include="LeukocyteShooting.h" />
+    <ClInclude Include="Mathf.h" />
+    <ClInclude Include="PointCollider.h" />
+    <ClInclude Include="Radom.h" />
+    <ClInclude Include="Scene.h" />
+    <ClInclude Include="SceneManger.h" />
+    <ClInclude Include="SourceManager.h" />
+    <ClInclude Include="SphereCollider.h" />
+    <ClInclude Include="Sprite.h" />
+    <ClInclude Include="SpriteRederer.h" />
+    <ClInclude Include="StartMenuBackground.h" />
+    <ClInclude Include="StartMenuBackgroundControl.h" />
+    <ClInclude Include="TextMesh.h" />
+    <ClInclude Include="Time.h" />
+    <ClInclude Include="Transform.h" />
+    <ClInclude Include="UI.h" />
+    <ClInclude Include="UIControl.h" />
+    <ClInclude Include="Vector2.h" />
+    <ClInclude Include="VirusBas.h" />
+    <ClInclude Include="VirusBasControl.h" />
+    <ClInclude Include="VirusBig.h" />
+    <ClInclude Include="VirusBigBody.h" />
+    <ClInclude Include="VirusBigBodyControl.h" />
+    <ClInclude Include="VirusBigControl.h" />
+    <ClInclude Include="VirusBigExplosion.h" />
+    <ClInclude Include="VirusBigExplosionControl.h" />
+    <ClInclude Include="VirusBigHighLight.h" />
+    <ClInclude Include="VirusBigHighLightControl.h" />
+    <ClInclude Include="VirusBigSideLight.h" />
+    <ClInclude Include="VirusBigSideLightControl.h" />
+    <ClInclude Include="VirusManager.h" />
+    <ClInclude Include="VirusManagerControl.h" />
+    <ClInclude Include="VirusMiddle.h" />
+    <ClInclude Include="VirusMiddleControl.h" />
+    <ClInclude Include="VirusMiddleExplosion.h" />
+    <ClInclude Include="VirusMiddleHighLight.h" />
+    <ClInclude Include="VirusMiddleHighLightControl.h" />
+    <ClInclude Include="VirusMiddlelExplosionControl.h" />
+    <ClInclude Include="VirusSmall.h" />
+    <ClInclude Include="VirusSmallControl.h" />
+    <ClInclude Include="VirusSmallLight.h" />
+    <ClInclude Include="VirusSmallExplosion.h" />
+    <ClInclude Include="VirusSmallExplosionControl.h" />
+    <ClInclude Include="WindowCreater.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AudioEffect.cpp" />
+    <ClCompile Include="AudioSource.cpp" />
+    <ClCompile Include="Background.cpp" />
+    <ClCompile Include="BackGroundMovement.cpp" />
+    <ClCompile Include="BoxCollider.cpp" />
+    <ClCompile Include="Bullet.cpp" />
+    <ClCompile Include="BulletControl.cpp" />
+    <ClCompile Include="Cannonball.cpp" />
+    <ClCompile Include="CannonballControl.cpp" />
+    <ClCompile Include="CannonBallGift.cpp" />
+    <ClCompile Include="CannonBallGiftControl.cpp" />
+    <ClCompile Include="CannonBallGiftInside.cpp" />
+    <ClCompile Include="CannonBallNumText.cpp" />
+    <ClCompile Include="CannonUI.cpp" />
+    <ClCompile Include="CheckCollider.cpp" />
+    <ClCompile Include="Collider.cpp" />
+    <ClCompile Include="Componentbehavior.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="GameBehavior.cpp" />
+    <ClCompile Include="GameManager.cpp" />
+    <ClCompile Include="GameManagerControl.cpp" />
+    <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="GamePlayingScene.cpp" />
+    <ClCompile Include="GameResult.cpp" />
+    <ClCompile Include="GameResultBackGround.cpp" />
+    <ClCompile Include="GameResultControl.cpp" />
+    <ClCompile Include="Gifts.cpp" />
+    <ClCompile Include="GiftsControl.cpp" />
+    <ClCompile Include="Input.cpp" />
+    <ClCompile Include="Leukocyte.cpp" />
+    <ClCompile Include="LeukocyteLight.cpp" />
+    <ClCompile Include="LeukocyteLightControl.cpp" />
+    <ClCompile Include="LeukocyteMoveControl.cpp" />
+    <ClCompile Include="LeukocyteShooting.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="PointCollider.cpp" />
+    <ClCompile Include="Radom.cpp" />
+    <ClCompile Include="Scene.cpp" />
+    <ClCompile Include="SceneManger.cpp" />
+    <ClCompile Include="SourceManager.cpp" />
+    <ClCompile Include="SphereCollider.cpp" />
+    <ClCompile Include="Sprite.cpp" />
+    <ClCompile Include="SpriteRederer.cpp" />
+    <ClCompile Include="StartMenuBackground.cpp" />
+    <ClCompile Include="StartMenuBackgroundControl.cpp" />
+    <ClCompile Include="TextMesh.cpp" />
+    <ClCompile Include="Time.cpp" />
+    <ClCompile Include="Transform.cpp" />
+    <ClCompile Include="UI.cpp" />
+    <ClCompile Include="UIControl.cpp" />
+    <ClCompile Include="Vector2.cpp" />
+    <ClCompile Include="VirusBas.cpp" />
+    <ClCompile Include="VirusBasControl.cpp" />
+    <ClCompile Include="VirusBig.cpp" />
+    <ClCompile Include="VirusBigBody.cpp" />
+    <ClCompile Include="VirusBigBodyControl.cpp" />
+    <ClCompile Include="VirusBigControl.cpp" />
+    <ClCompile Include="VirusBigExplosion.cpp" />
+    <ClCompile Include="VirusBigExplosionControl.cpp" />
+    <ClCompile Include="VirusBigHighLight.cpp" />
+    <ClCompile Include="VirusBigHighLightControl.cpp" />
+    <ClCompile Include="VirusBigSideLight.cpp" />
+    <ClCompile Include="VirusBigSideLightControl.cpp" />
+    <ClCompile Include="VirusManager.cpp" />
+    <ClCompile Include="VirusManagerControl.cpp" />
+    <ClCompile Include="VirusMiddle.cpp" />
+    <ClCompile Include="VirusMiddleControl.cpp" />
+    <ClCompile Include="VirusMiddleExplosion.cpp" />
+    <ClCompile Include="VirusMiddleHighLight.cpp" />
+    <ClCompile Include="VirusMiddleHighLightControl.cpp" />
+    <ClCompile Include="VirusMiddlelExplosionControl.cpp" />
+    <ClCompile Include="VirusSmall.cpp" />
+    <ClCompile Include="VirusSmallControl.cpp" />
+    <ClCompile Include="VirusSmallLight.cpp" />
+    <ClCompile Include="VirusSmallExplosion.cpp" />
+    <ClCompile Include="VirusSmallExplosionControl.cpp" />
+    <ClCompile Include="WindowCreater.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{686EE06B-072F-4698-97A1-A5F9DB78F1F5}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>FireWare</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>SDL2-2.0.4\include;SDL2_mixer-2.0.1\include;SDL2_ttf-2.0.14\include;SDL2_image-2.0.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>SDL2-2.0.4\lib\x86;SDL2_mixer-2.0.1\lib\x86;SDL2_ttf-2.0.14\lib\x86;SDL2_image-2.0.1\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_mixer.lib;SDL2_ttf.lib;SDL2_image.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>SDL2-2.0.4\include;SDL2_mixer-2.0.1\include;SDL2_ttf-2.0.14\include;SDL2_image-2.0.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>SDL2-2.0.4\lib\x86;SDL2_mixer-2.0.1\lib\x86;SDL2_ttf-2.0.14\lib\x86;SDL2_image-2.0.1\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_mixer.lib;SDL2_ttf.lib;SDL2_image.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
