@@ -4,8 +4,6 @@
 #include <SDL_mixer.h>
 #include <SDL_ttf.h>
 #include <SDL_image.h>
-
-
 class Time;
 class SceneManger;
 class SourceManager;
@@ -16,11 +14,8 @@ public:
 	Game();
 	~Game();
 
-
 	bool inite();
 	void Update();
-
-
 
 private:
 	WindowCreater* m_pWindowCreater;
@@ -34,6 +29,5 @@ private:
 
 private:
 	void Run();
-
 };
 #endif
